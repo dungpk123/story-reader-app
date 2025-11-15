@@ -1,0 +1,1 @@
+import androidx.room.Entity\nimport androidx.room.PrimaryKey\n\n@Entity(tableName = "favorites")\ndata class Favorite(\n    @PrimaryKey(autoGenerate = true) val id: Long = 0,\n    val storyId: Long,\n    val addedDate: String = "2025-11-15 03:48:11"\n)
